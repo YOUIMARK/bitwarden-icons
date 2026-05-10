@@ -33,7 +33,7 @@ Worker 收到请求后，提取域名，转发至 logo.dev API，再将图片返
 
 4. 在 Bitwarden 客户端的图标服务器设置中填入你的 Worker 地址：
    - 登录时在自定义环境中图标服务器URL填写 **Icons** 地址
-   - 例如: https://icons.example.com
+   - 例如: `https://icons.example.com`
 
 ## 许可证
 
