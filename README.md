@@ -2,7 +2,7 @@
 
 Bitwarden 默认通过 `icons.bitwarden.net` 获取保险库条目的网站图标，但官方图标服务器依赖直接抓取各网站的 favicon，经常出现图标缺失、加载失败的问题。
 
-本项目利用 Cloudflare 将 Bitwarden 客户端的图标请求代理到 [logo.dev](https://www.logo.dev)，logo.dev 拥有数千万个品牌 Logo 的数据库，图标质量和覆盖率远优于官方方案。
+本项目利用 Cloudflare 将 Bitwarden 客户端的图标请求代理到 [logo.dev](https://www.logo.dev)，logo.dev 拥有数千万个品牌 Logo 的数据库，图标质量和覆盖率优于官方方案。
 
 ## 方案一：Cloudflare 重定向规则（推荐）
 
